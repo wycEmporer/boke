@@ -10,6 +10,7 @@ require(['../../assets/js/config.js','../../assets/js/common.js'],function(){
                     data:obj,
                     success:function(info){
                         var list=info.result.lesson;
+                        console.log(info);
                     }
                 };
                 $.ajax(options);
